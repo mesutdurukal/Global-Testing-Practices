@@ -3,6 +3,9 @@
 Thank you for your interest in contributing to **Global Testing Practices**!  
 This project aims to gather real perspectives on how testing is done across the world.
 
+By submitting, you can specify your consent (share publicly with name, share anonymously, or do not share outside the 
+project). If no consent is given, your contribution stays only in the repository.
+
 ---
 
 ## 📝 Contribution Steps

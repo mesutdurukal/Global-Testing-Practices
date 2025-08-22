@@ -30,3 +30,11 @@ the US approach emphasizes "just getting things to work," while the Brazilian ap
 ## ✍️ How to Contribute
 
 See [CONTRIBUTING.md](CONTRIBUTING.md)
+
+See [SAMPLE SUBMISSION](submissions/japan/mesut.durukal.md)
+
+## 🤝 Final Note
+This project is aimed to be a crowd survey. There might be different or conflicting ideas and observations.
+What one observes, or likes/dislikes might be contradicting with ideas of another one from the same area.
+
+All we have to do is: Respect and be open for any idea/observation. 

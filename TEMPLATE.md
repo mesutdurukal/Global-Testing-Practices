@@ -5,6 +5,17 @@ Fill in your observations following the sections below.
 
 ---
 
+## Consent for Sharing
+
+Do you consent to your submission being published in:
+- [  ] Social media
+- [  ] Blog posts
+- [  ] Articles or books
+- [  ] Presentations
+
+Please check the boxes you agree to.  
+If you prefer anonymity, write: "Please keep this anonymous."
+
 ## 🏷 Personal Information
 
 ```yaml
@@ -33,3 +44,7 @@ What are the biggests strengths and weaknesses of your country?:
 - [Strength: ]
 - [Weakness: ]
 ```
+
+## SAMPLE SUBMISSION
+
+See [SAMPLE SUBMISSION](submissions/japan/mesut.durukal.md)
