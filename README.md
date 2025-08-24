@@ -4,6 +4,8 @@ This project collects insights on how **software testing is practiced around the
 methodologies, challenges, and unique approaches. The goal is to build a knowledge base that highlights 
 **regional differences** and **shared patterns** in the global QA community.
 
+Recommended hastag for the project: #globaltestingpractices 
+
 ## What is expected from participants?
 
 What they find being done differently in different countries or by different communities. Some samples (please note: 

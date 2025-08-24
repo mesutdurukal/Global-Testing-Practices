@@ -19,15 +19,17 @@ If you prefer anonymity, write: "Please keep this anonymous."
 ## 🏷 Personal Information
 
 ```yaml
-Contributor: [Your name or alias]
+Contributor: [Your name or alias, or type "anonymous" if you prefer anonymity]
 Nationality: [Country where you are originally from]
 Residence: [Country where you are currently living]
 Role: [Your role in the company, ie Test Automation Engineer, Software Tester]
 Background: [Short context, e.g., "Local tester", "Expat from India working in Germany"]
 Industry: [e.g., Finance, Healthcare, E-commerce]
+Socials: [Linkedin, X, Mastodon, Email, or anything else, or leave it empty if you prefer not to share]
 ```
 
 ## 🇨🇴 Your Observations
+Feel free to write in free-text format, but you can also follow the questions below. (don't feel limited to only these)
 
 ```yaml
 What is the characteristic of your country in terms of testing culture?:

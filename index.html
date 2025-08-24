@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Global Testing Practices - Contributors</title>
+    <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    h1, h2 {
+      color: #333;
+    }
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    li {
+      margin: 5px 0;
+    }
+    #map {
+      height: 400px;
+      width: 100%;
+      margin-top: 20px;
+      border: 1px solid #ccc;
+    }
+    .toc {
+      margin-bottom: 20px;
+      padding: 10px;
+      border: 1px solid #aaa;
+      background: #f9f9f9;
+      width: fit-content;
+    }
+    .toc a {
+      text-decoration: none;
+      color: #0066cc;
+    }
+  </style>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+</head>
+<body>
+<h1>Global Testing Practices - Contributors</h1>
+
+<!-- Table of Contents -->
+<div class="toc">
+    <strong>Index</strong>
+    <ul>
+        <li><a href="#by-name">Contributors (By Name)</a></li>
+        <li><a href="#by-country">Contributors (By Country)</a></li>
+        <li><a href="#on-map">Contributors (Shown on Map)</a></li>
+    </ul>
+</div>
+
+<!-- Contributors by Name -->
+<h2 id="by-name">Contributors (By Name, Nationality, Country)</h2>
+<ul id="contributors-by-name"></ul>
+
+<!-- Contributors by Country -->
+<h2 id="by-country">Contributors (By Country)</h2>
+<div id="contributors-by-country"></div>
+
+<!-- Map -->
+<h2 id="on-map">Contributors (Shown on Map)</h2>
+<div id="map"></div>
+
+<script>
+    const contributors = [
+      { name: "Mesut Durukal", nationality: "Turkish", country: "Japan", lat: 35.6762, lon: 139.6503 }
+      // Add more contributors here
+    ];
+
+    // By Name
+    const byNameList = document.getElementById("contributors-by-name");
+    contributors.forEach(c => {
+      const li = document.createElement("li");
+      li.textContent = `${c.name}, ${c.nationality}, ${c.country}`;
+      byNameList.appendChild(li);
+    });
+
+    // By Country
+    const byCountryDiv = document.getElementById("contributors-by-country");
+    const grouped = {};
+    contributors.forEach(c => {
+      if (!grouped[c.country]) grouped[c.country] = [];
+      grouped[c.country].push(c);
+    });
+    for (const country in grouped) {
+      const h3 = document.createElement("h3");
+      h3.textContent = country;
+      byCountryDiv.appendChild(h3);
+      const ul = document.createElement("ul");
+      grouped[country].forEach(c => {
+        const li = document.createElement("li");
+        li.textContent = `${c.name}, ${c.nationality}`;
+        ul.appendChild(li);
+      });
+      byCountryDiv.appendChild(ul);
+    }
+
+    // Map
+    const map = L.map('map').setView([20, 0], 2);
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '© OpenStreetMap contributors'
+    }).addTo(map);
+    contributors.forEach(c => {
+      L.marker([c.lat, c.lon]).addTo(map)
+        .bindPopup(`${c.name}<br>${c.nationality}, ${c.country}`);
+    });
+  </script>
+</body>
+</html>

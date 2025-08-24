@@ -14,8 +14,9 @@ Contributor: Mesut Durukal
 Nationality: Turkey
 Residence: Japan
 Role: Senior QA Automation Engineer
-Background: Expat from India working in Germany
+Background: Seasoned tester
 Industry: IT
+Socials: https://www.linkedin.com/in/mesutdurukal/
 ```
 
 ## 🇨🇴 Your Observations
@@ -29,7 +30,11 @@ What is the characteristic of your country in terms of testing culture?:
     * Respect for hierarchy, managers or leaders are general the oldest and they have strong impact on others
     * Attention to detail and thoroughness
     * Manual testing dominance over test automation
-    * Integration with the international community is a bit blocked by language barrier 
+    * Integration with the international community is a bit blocked by language barrier
+    * Risk aversion – a preference for proven methods rather than experimentation with new tools or practices.
+    * Slow adoption of automation and agile – change takes time due to strong reliance on established processes.
+    * High customer focus – quality is seen as protecting the company’s reputation; defects are taken very seriously.
+    * Communication might be slow since people do not say "no". they prefer to keep quiet or just disappear, so the other side may be waiting for nothing.  
 
 How is testing practiced differently in your country?:
 - No observations
