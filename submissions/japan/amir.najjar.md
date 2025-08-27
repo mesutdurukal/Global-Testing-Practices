@@ -19,7 +19,7 @@ Industry: IT
 Socials: https://www.linkedin.com/in/amirnajjar/
 ```
 
-## Observations
+## 🇮🇱 Your Observations
 
 ```yaml
 What is the characteristic of your country in terms of testing culture?:

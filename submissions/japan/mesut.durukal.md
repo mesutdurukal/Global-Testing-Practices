@@ -19,7 +19,7 @@ Industry: IT
 Socials: https://www.linkedin.com/in/mesutdurukal/
 ```
 
-## 🇨🇴 Your Observations
+## 🇯🇵 Your Observations
 
 ```yaml
 What is the characteristic of your country in terms of testing culture?:
@@ -27,7 +27,7 @@ What is the characteristic of your country in terms of testing culture?:
 - Japan: Japan's testing characteristics follow their culture. 
     * Process-oriented and disciplined: doing things the right way, not just doing them fast.
     * Act as a team and Emphasis on group harmony, no strong individualism
-    * Respect for hierarchy, managers or leaders are general the oldest and they have strong impact on others
+    * Respect for hierarchy, managers or leaders are generally the oldest and they have strong impact on others
     * Attention to detail and thoroughness
     * Manual testing dominance over test automation
     * Integration with the international community is a bit blocked by language barrier
