@@ -29,7 +29,7 @@ Socials: https://www.linkedin.com/in/sunshumnan/, https://medium.com/@shumnan
 
 ```
 
-## 🇨🇴 Your Observations
+## 🇹🇭 Your Observations
 Feel free to write in free-text format, but you can also follow the questions below. (don't feel limited to only these)
 
 ```yaml
@@ -56,7 +56,3 @@ What are the biggest strengths and weaknesses of your country?:
   * Weakness: Those new things are not evaluated and not given a clear direction from the management level. So QA improvement is locked in stagnation.
 
 ```
-
-## SAMPLE SUBMISSION
-
-See [SAMPLE SUBMISSION](submissions/japan/mesut.durukal.md)
