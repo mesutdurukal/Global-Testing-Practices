@@ -40,11 +40,11 @@ How is testing practiced differently in your country?:
 Is there anything you were surprised to see anywhere in term of testing?:
 - No observations
 
-What are the biggests strengths and weaknesses of your country?:
+What are the biggest strengths and weaknesses of your country?:
 - Palestine teams  
   * Strength: Highly committed and resilient, Palestinian teams maintain work continuity even in very difficult circumstances.
   * Weakness: Limited opportunities to practice automation testing, affecting growth in automation expertise.
-- Internatioanl teams
+- International teams
   * Strength: Effective and professional communication, coupled with strong adherence to QA processes.
   * Weakness: Time zone differences and regional holidays between Palestine, Europe, and the US sometimes affect communication, highlighting the need for proactive coordination.
 ```

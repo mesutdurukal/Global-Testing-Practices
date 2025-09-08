@@ -49,4 +49,4 @@ What are the biggests strengths and weaknesses of your country?:
 
 ## SAMPLE SUBMISSION
 
-See [SAMPLE SUBMISSION](submissions/japan/mesut.durukal.md)
+See [SAMPLE SUBMISSION](submissions/Japan/mesut.durukal.md)

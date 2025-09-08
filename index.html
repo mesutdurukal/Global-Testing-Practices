@@ -19,7 +19,7 @@
       margin: 5px 0;
     }
     #map {
-      height: 400px;
+      height: 900px;
       width: 100%;
       margin-top: 20px;
       border: 1px solid #ccc;
@@ -46,11 +46,15 @@
 <div class="toc">
     <strong>Index</strong>
     <ul>
+        <li><a href="#on-map">Contributors (Shown on Map)</a></li>
         <li><a href="#by-name">Contributors (By Name)</a></li>
         <li><a href="#by-country">Contributors (By Country)</a></li>
-        <li><a href="#on-map">Contributors (Shown on Map)</a></li>
     </ul>
 </div>
+
+<!-- Map -->
+<h2 id="on-map">Contributors (Shown on Map)</h2>
+<div id="map"></div>
 
 <!-- Contributors by Name -->
 <h2 id="by-name">Contributors (By Name, Nationality, Country)</h2>
@@ -60,18 +64,29 @@
 <h2 id="by-country">Contributors (By Country)</h2>
 <div id="contributors-by-country"></div>
 
-<!-- Map -->
-<h2 id="on-map">Contributors (Shown on Map)</h2>
-<div id="map"></div>
+
 
 <script>
     const contributors = [
-      { name: "Mesut Durukal", nationality: "Turkey", country: "Japan", lat: 35.4437, lon: 139.6380 },
-      { name: "Amir Najjar", nationality: "Israel", country: "Japan", lat: 35.6762, lon: 139.6503 },
-      { name: "Hiba Ghannam", nationality: "Palestine", country: "Palestine", lat: 31.9522, lon: 35.2332 },
-      { name: "Shumnan Sun", nationality: "Thailand", country: "Thailand", lat: 15.8700, lon: 100.9925 }
+      { name: "Mesut Durukal", nationality: "Turkish", country: "Japan", lat: 35.54089, lon: 139.487720 },
+      { name: "Amir Najjar", nationality: "Israeli", country: "Japan", lat: 35.6762, lon: 139.6503 },
+      { name: "Hiba Ghannam", nationality: "Palestinian", country: "Palestine", lat: 31.9522, lon: 35.2332 },
+      { name: "Shumnan Sun", nationality: "Thai", country: "Thailand", lat: 15.8700, lon: 100.9925 },
+      { name: "Tim Lolkema", nationality: "Dutch", country: "Netherlands", lat: 52.3676, lon: 4.9041 },
+      { name: "Anonymous", nationality: "Anonymous", country: "Spain", lat: 40.41536, lon: -3.6829 },
+      { name: "Maryia Tuleika", nationality: "Belarusian", country: "Sweden", lat: 59.31218, lon: 19.534 }
       // Add more contributors here
     ];
+
+    // Map
+    const map = L.map('map').setView([25, 20], 3);
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '© OpenStreetMap contributors'
+    }).addTo(map);
+    contributors.forEach(c => {
+        L.marker([c.lat, c.lon]).addTo(map)
+            .bindPopup(`${c.name}<br>${c.nationality}, ${c.country}`);
+    });
 
     // By Name
     const byNameList = document.getElementById("contributors-by-name");
@@ -101,15 +116,6 @@
       byCountryDiv.appendChild(ul);
     }
 
-    // Map
-    const map = L.map('map').setView([20, 0], 2);
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-      attribution: '© OpenStreetMap contributors'
-    }).addTo(map);
-    contributors.forEach(c => {
-      L.marker([c.lat, c.lon]).addTo(map)
-        .bindPopup(`${c.name}<br>${c.nationality}, ${c.country}`);
-    });
   </script>
 </body>
 </html>
