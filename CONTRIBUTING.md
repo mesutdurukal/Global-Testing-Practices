@@ -3,12 +3,22 @@
 Thank you for your interest in contributing to **Global Testing Practices**!  
 This project aims to gather real perspectives on how testing is done across the world.
 
-By submitting, you can specify your consent (share publicly with name, share anonymously, or do not share outside the 
+By submitting, you can specify your consent (share publicly with name, share anonymously, or do not share outside the
 project). If no consent is given, your contribution stays only in the repository.
 
 ---
 
-## 📝 Contribution Steps
+## 📝 Contribution Options
+
+You can contribute in **two ways**:
+
+### Option 1: Fill in the Google Form
+Simply share your perspective by filling out this form:  
+👉 [Google Form Link](https://forms.gle/T2jcSLnsK13GQadh9)
+
+---
+
+### Option 2: Contribute via GitHub (Fork & Pull Request)
 
 1. **Fork** this repository (top right "Fork" button).
 2. **Clone** your fork to your local machine:

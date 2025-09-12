@@ -68,18 +68,24 @@
 
 <script>
     const contributors = [
-      { name: "Mesut Durukal", nationality: "Turkish", country: "Japan", lat: 35.54089, lon: 139.487720 },
-      { name: "Amir Najjar", nationality: "Israeli", country: "Japan", lat: 35.6762, lon: 139.6503 },
-      { name: "Hiba Ghannam", nationality: "Palestinian", country: "Palestine", lat: 31.9522, lon: 35.2332 },
-      { name: "Shumnan Sun", nationality: "Thai", country: "Thailand", lat: 15.8700, lon: 100.9925 },
-      { name: "Tim Lolkema", nationality: "Dutch", country: "Netherlands", lat: 52.3676, lon: 4.9041 },
-      { name: "Anonymous", nationality: "Anonymous", country: "Spain", lat: 40.41536, lon: -3.6829 },
-      { name: "Maryia Tuleika", nationality: "Belarusian", country: "Sweden", lat: 59.31218, lon: 19.534 }
-      // Add more contributors here
+        { name: "Mesut Durukal", nationality: "Turkish", country: "Japan", lat: 35.54089, lon: 139.487720 },
+        { name: "Amir Najjar", nationality: "Israeli", country: "Japan", lat: 35.6762, lon: 139.6503 },
+        { name: "Hiba Ghannam", nationality: "Palestinian", country: "Palestine", lat: 31.9522, lon: 35.2332 },
+        { name: "Shumnan Sun", nationality: "Thai", country: "Thailand", lat: 15.8700, lon: 100.9925 },
+        { name: "Udit Gattani", nationality: "India", country: "India", lat: 12.921, lon: 77.672 },
+        { name: "Tim Lolkema", nationality: "Dutch", country: "Netherlands", lat: 52.3676, lon: 4.9041 },
+        { name: "Anonymous", nationality: "Anonymous", country: "Spain", lat: 40.41536, lon: -3.6829 },
+        { name: "Maryia Tuleika", nationality: "Belarusian", country: "Sweden", lat: 59.31218, lon: 19.534 },
+        { name: "Vitaly Sharovatov", nationality: "Russian", country: "France", lat: 48.8631, lon: 2.314415 },
+        { name: "Attila Fekete", nationality: "Hungarian", country: "Hungary", lat: 47.501, lon: 19.03347 },
+        { name: "Anonymous", nationality: "Anonymous", country: "Japan", lat: 35.6062, lon: 139.503 },
+        { name: "Marina Ernst", nationality: "Russian", country: "Germany", lat: 50.355, lon: 7.5919 },
+        { name: "Péter Földházi", nationality: "Hungarian", country: "USA", lat: 40.7449, lon: -73.999 },
+        { name: "Anonymous", nationality: "Turkish", country: "Turkey", lat: 40.973, lon: 29.058 }
     ];
 
     // Map
-    const map = L.map('map').setView([25, 20], 3);
+    const map = L.map('map').setView([18, 20], 3);
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
         attribution: '© OpenStreetMap contributors'
     }).addTo(map);
