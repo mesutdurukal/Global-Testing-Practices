@@ -4,38 +4,38 @@
     <meta charset="UTF-8">
     <title>Global Testing Practices - Contributors</title>
     <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 20px;
-    }
-    h1, h2 {
-      color: #333;
-    }
-    ul {
-      list-style-type: none;
-      padding: 0;
-    }
-    li {
-      margin: 5px 0;
-    }
-    #map {
-      height: 900px;
-      width: 100%;
-      margin-top: 20px;
-      border: 1px solid #ccc;
-    }
-    .toc {
-      margin-bottom: 20px;
-      padding: 10px;
-      border: 1px solid #aaa;
-      background: #f9f9f9;
-      width: fit-content;
-    }
-    .toc a {
-      text-decoration: none;
-      color: #0066cc;
-    }
-  </style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin: 5px 0;
+        }
+        #map {
+            height: 900px;
+            width: 100%;
+            margin-top: 20px;
+            border: 1px solid #ccc;
+        }
+        .toc {
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 1px solid #aaa;
+            background: #f9f9f9;
+            width: fit-content;
+        }
+        .toc a {
+            text-decoration: none;
+            color: #0066cc;
+        }
+    </style>
     <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
 </head>
@@ -64,15 +64,13 @@
 <h2 id="by-country">Contributors (By Country)</h2>
 <div id="contributors-by-country"></div>
 
-
-
 <script>
     const contributors = [
         { name: "Mesut Durukal", nationality: "Turkish", country: "Japan", lat: 35.54089, lon: 139.487720 },
         { name: "Amir Najjar", nationality: "Israeli", country: "Japan", lat: 35.6762, lon: 139.6503 },
         { name: "Hiba Ghannam", nationality: "Palestinian", country: "Palestine", lat: 31.9522, lon: 35.2332 },
         { name: "Shumnan Sun", nationality: "Thai", country: "Thailand", lat: 15.8700, lon: 100.9925 },
-        { name: "Udit Gattani", nationality: "India", country: "India", lat: 12.921, lon: 77.672 },
+        { name: "Udit Gattani", nationality: "Indian", country: "India", lat: 12.921, lon: 77.672 },
         { name: "Tim Lolkema", nationality: "Dutch", country: "Netherlands", lat: 52.3676, lon: 4.9041 },
         { name: "Anonymous", nationality: "Anonymous", country: "Spain", lat: 40.41536, lon: -3.6829 },
         { name: "Maryia Tuleika", nationality: "Belarusian", country: "Sweden", lat: 59.31218, lon: 19.534 },
@@ -83,6 +81,16 @@
         { name: "Péter Földházi", nationality: "Hungarian", country: "USA", lat: 40.7449, lon: -73.999 },
         { name: "Anonymous", nationality: "Turkish", country: "Turkey", lat: 40.973, lon: 29.058 }
     ];
+
+    // Helper: build file path if not anonymous
+    function getFilePath(c) {
+        if (!c.name || c.name.toLowerCase() === "anonymous") return null;
+        const parts = c.name.trim().split(/\s+/);
+        if (parts.length < 2) return null; // need first+last name
+        const first = parts[0].toLowerCase();
+        const last = parts[parts.length - 1].toLowerCase();
+        return `submissions/${c.country}/${first}.${last}.md`;
+    }
 
     // Map
     const map = L.map('map').setView([18, 20], 3);
@@ -97,31 +105,40 @@
     // By Name
     const byNameList = document.getElementById("contributors-by-name");
     contributors.forEach(c => {
-      const li = document.createElement("li");
-      li.textContent = `${c.name}, ${c.nationality}, ${c.country}`;
-      byNameList.appendChild(li);
+        const filePath = getFilePath(c);
+        const li = document.createElement("li");
+        if (filePath) {
+            li.innerHTML = `<a href="${filePath}" target="_blank">${c.name}</a>, ${c.nationality}, ${c.country}`;
+        } else {
+            li.textContent = `${c.name}, ${c.nationality}, ${c.country}`;
+        }
+        byNameList.appendChild(li);
     });
 
     // By Country
     const byCountryDiv = document.getElementById("contributors-by-country");
     const grouped = {};
     contributors.forEach(c => {
-      if (!grouped[c.country]) grouped[c.country] = [];
-      grouped[c.country].push(c);
+        if (!grouped[c.country]) grouped[c.country] = [];
+        grouped[c.country].push(c);
     });
     for (const country in grouped) {
-      const h3 = document.createElement("h3");
-      h3.textContent = country;
-      byCountryDiv.appendChild(h3);
-      const ul = document.createElement("ul");
-      grouped[country].forEach(c => {
-        const li = document.createElement("li");
-        li.textContent = `${c.name}, ${c.nationality}`;
-        ul.appendChild(li);
-      });
-      byCountryDiv.appendChild(ul);
+        const h3 = document.createElement("h3");
+        h3.textContent = country;
+        byCountryDiv.appendChild(h3);
+        const ul = document.createElement("ul");
+        grouped[country].forEach(c => {
+            const filePath = getFilePath(c);
+            const li = document.createElement("li");
+            if (filePath) {
+                li.innerHTML = `<a href="${filePath}" target="_blank">${c.name}</a>, ${c.nationality}`;
+            } else {
+                li.textContent = `${c.name}, ${c.nationality}`;
+            }
+            ul.appendChild(li);
+        });
+        byCountryDiv.appendChild(ul);
     }
-
-  </script>
+</script>
 </body>
 </html>
