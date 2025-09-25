@@ -1,10 +1,3 @@
-# 🌍 Global Testing Practices – Contribution Template
-
-Please copy this file under `/submissions/` folder and rename it (e.g., `mesut_durukal.md`). 
-Fill in your observations following the sections below.
-
----
-
 ## Consent for Sharing
 
 Do you consent to your submission being published in:
@@ -32,8 +25,8 @@ Feel free to write in free-text format, but you can also follow the questions be
 
 I haven't worked as a quality engineering professional in India, and therefore my observations are limited to Germany. My experience 
 - 2 years of management consulting for corporations across industries in Germany.
-- 1.5 years of working in Daimler (parent company of Mercedes Benz).
-- 4 years of working for Bitgrip, a small services company (a digital agency in Germany), although our clients were international corporations. 
+- 1.5 years of working in Daimler (parent company of Mercedes Benz) as a RPA process automation engineer, with some software testing work. 
+- 4 years of working as Test Automation Engineer / Quality Coach for Bitgrip, a small services company (a digital agency in Germany), although our clients were international corporations. 
 
 What is the characteristic of your country in terms of testing culture?:
 - Testing is seen as important in principle, but neglected in practice. When budget needs to be cut, QA budget is the first to go.
@@ -41,7 +34,7 @@ What is the characteristic of your country in terms of testing culture?:
 - I've seen several test managers have a tendency to create long documents ('test concepts') that are divorced from relevance and reality on the ground. 
 - There is generally a resistance to change. Most resistant are unfortunately experienced German quality professionals, followed by managers and product owners. I have found developers to be actually more open than these groups to changing and upgrading testing practices. 
 - Testing practices in most companies are outdated, mainly owing to resistance to change. 
-- There is an over-reliance on certifications like the ISTQB as opposed to practice real-life experience.  
+- There is an over-reliance on certifications like the ISTQB as opposed to practical, real-life experience.  
 - There is a massive emphasis on 'clear division of labour and responsibilities', which often hinder whole-team ownership of quality. 
 
 Is there anything you were surprised to see anywhere in term of testing?:
@@ -52,8 +45,8 @@ What are the biggest strengths and weaknesses of your country?:
 - Strength: 
     - Germans are conscientious. They are sincere people, who want do deliver quality work. This intention is strongly felt. 
     - Germans are open-minded. If your colleagues buy into your mission, they can turn from opponents to your strongest allies overnight. 
-    - Germans are direct and are open with criticism, speaking their minds. 
-    - A strong emphasis on work-life balance, overtime work being the exception, rather than the rule. 
+    - Germans are direct and are open with criticism. They speak their minds. 
+    - Germans lay a strong emphasis on work-life balance. Overtime work being the exception, rather than the rule. 
 - Weakness: 
     - Change resistance: It takes time and persistent effort to translate intention to action. 
     - Perfectionism: There is a resistance to wait for the perfect alternative, rather than starting with a good-enough alternative and adapting as necessary. 
