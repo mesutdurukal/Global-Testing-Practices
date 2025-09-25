@@ -30,7 +30,10 @@ Feel free to write in free-text format, but you can also follow the questions be
 
 ```yaml
 
-I haven't worked as a quality engineering professional in India, and therefore my observations are limited to Germany. 
+I haven't worked as a quality engineering professional in India, and therefore my observations are limited to Germany. My experience 
+- 2 years of management consulting for corporations across industries in Germany.
+- 1.5 years of working in Daimler (parent company of Mercedes Benz).
+- 4 years of working for Bitgrip, a small services company (a digital agency in Germany), although our clients were international corporations. 
 
 What is the characteristic of your country in terms of testing culture?:
 - Testing is seen as important in principle, but neglected in practice. When budget needs to be cut, QA budget is the first to go.
