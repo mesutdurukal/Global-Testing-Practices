@@ -37,17 +37,21 @@ What is the characteristic of your country in terms of testing culture?:
 - There is an over-reliance on certifications like the ISTQB as opposed to practical, real-life experience.  
 - There is a massive emphasis on 'clear division of labour and responsibilities', which often hinder whole-team ownership of quality. 
 
+What is the main factor that will ease your integration into German work culture?
+- I have a clear answer to this question - learning the language. While most Germans in the work environment are fluent in English, they are far more comfortable in German since they can express themselves more precisely. Therefore, anybody who doesn't speak German is automatically at a disadvantage in a German work environment. On the flipside, if you are making an attempt to learn and speak their language, Germans will be supportive and meet you halfway. I noticed my own experience in the professional context change as my German got better, and by speaking to non German speaking expats here, I can contrast how their experience in the workplace is very different. 
+
 Is there anything you were surprised to see anywhere in term of testing?:
 - I am surprised that in several small and medium sized IT teams, most testing is still done manually in a sub-optimal manner.
 - I am surprised by the contrast between quality standards in manufacturing and IT. While Germans will insist on the highest quality standards with manufactured products, they are surprisingly tolerant of sub-standard software products. 
 
 What are the biggest strengths and weaknesses of your country?:
 - Strength: 
+    - Germans like to be precise and explicit. They like to consider all details and exceptions thoroughly, and address these explicitly in their communication and processes. 
     - Germans are conscientious. They are sincere people, who want do deliver quality work. This intention is strongly felt. 
     - Germans are open-minded. If your colleagues buy into your mission, they can turn from opponents to your strongest allies overnight. 
     - Germans are direct and are open with criticism. They speak their minds. 
     - Germans lay a strong emphasis on work-life balance. Overtime work being the exception, rather than the rule. 
 - Weakness: 
     - Change resistance: It takes time and persistent effort to translate intention to action. 
-    - Perfectionism: There is a resistance to wait for the perfect alternative, rather than starting with a good-enough alternative and adapting as necessary. 
+    - Perfectionism: The strength of precision casts the shadow of perfectionism. There is a resistance to wait for the perfect alternative, rather than starting with a good-enough alternative and adapting as necessary. 
 ```
