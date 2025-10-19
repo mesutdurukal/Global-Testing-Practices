@@ -19,12 +19,12 @@ The analysis is based on first-hand observations from 20 testing professionals r
 **Characteristics:**
 - Strong respect for authority and established processes
 - Decision-making flows top-down
-- Emphasis on documentation and formal procedures
 - Slower adoption of new methodologies
 
 **Testing Impact:**
 - **Japan**: "Respect for hierarchy, managers or leaders are sometimes chosen from the oldest and they have strong impact on others" - Process-oriented approach with extensive test planning
 - **Germany**: "There is a massive emphasis on 'clear division of labour and responsibilities'" - Structured testing with detailed documentation
+  - **International Companies in Germany**: "In international companies based in Germany, there's a very different environment - flat hierarchy, flexible working times with good work-life balance, and a leadership style that encourages taking responsibility and risks." - Giuseppe Donati
 - **Russia**: "Testers are still blamed for bugs and bad quality quite often" - Traditional blame culture affecting tester morale
 
 #### Flat Hierarchy Cultures (Netherlands, Sweden)
@@ -78,13 +78,14 @@ The analysis is based on first-hand observations from 20 testing professionals r
 
 ### 4. Innovation vs. Tradition
 
-#### Innovation-Embracing Cultures (USA, Turkey, UAE)
+#### Innovation-Embracing Cultures (USA, Turkey, UAE, Netherlands)
 **Characteristics:**
 - Quick adoption of new tools and methodologies
 - Experimentation encouraged
 - Risk-taking in technology choices
 
 **Testing Impact:**
+- **Netherlands**: "The Netherlands has been home to many software testing pioneers. TMAP was born here and ISTQB foundation was co-written by Dutch testers. There's a trend of trend-hopping when it comes to tools/frameworks, showing a culture that's quick to adopt new technologies." - Willem
 - **Turkey**: "People are very eager to learn new testing tools and technologies also they do not hesitate to integrate them"
 - **UAE**: "The country itself is very creative and innovative as it leads technology adoption in general"
 
@@ -108,7 +109,8 @@ The analysis is based on first-hand observations from 20 testing professionals r
 - Certification-focused (ISTQB, TMAP)
 
 **Unique Aspects:**
-- **Germany**: Over-reliance on certifications vs. practical experience
+- **Germany**: "In Germany, there's a strong emphasis on academic titles and formal education. A PhD has a huge weight in professional settings, which can sometimes overshadow practical experience." - Giuseppe Donati
+- **Netherlands**: "The Netherlands has been home to many software testing pioneers. TMAP was born here and ISTQB foundation was co-written by Dutch testers. There are huge education providers in testing, but there's also very little standardization and strategy in the field." - Willem
 - **Netherlands**: TMAP certification preference over ISTQB
 - **Sweden**: Technical testing focus with broad automation skills
 - **Country snapshot — England (Andrew Brown):**
@@ -342,12 +344,14 @@ The most successful global testing organizations are those that recognize, respe
 - France — Vitaly Sharovatov. Source: [submissions/France/vitaly.sharovatov.md](submissions/France/vitaly.sharovatov.md)
 - Germany — Anupam Krishnamurthy. Source: [submissions/Germany/anupam.krishnamurthy.md](submissions/Germany/anupam.krishnamurthy.md)
 - Germany — Marina Ernst. Source: [submissions/Germany/marina.ernst.md](submissions/Germany/marina.ernst.md)
+- Germany — Giuseppe Donati. Source: [submissions/Germany/giuseppe.donati.md](submissions/Germany/giuseppe.donati.md)
 - Hungary — Attila Fekete. Source: [submissions/Hungary/attila.fekete.md](submissions/Hungary/attila.fekete.md)
 - India — Vipin Jain — QA Head. Source: [submissions/India/vipin.jain.md](submissions/India/vipin.jain.md)
 - Japan — Amir Najjar. Source: [submissions/Japan/amir.najjar.md](submissions/Japan/amir.najjar.md)
 - Japan — Mesut Durukal. Source: [submissions/Japan/mesut.durukal.md](submissions/Japan/mesut.durukal.md)
 - Japan — Udit Gattani. Source: [submissions/Japan/udit.gattani.md](submissions/Japan/udit.gattani.md)
 - Netherlands — Tim Lolkema. Source: [submissions/Netherlands/tim.lolkema.md](submissions/Netherlands/tim.lolkema.md)
+- Netherlands — Willem. Source: [submissions/Netherlands/willem.md](submissions/Netherlands/willem.md)
 - Palestine — Hiba Ghannam. Source: [submissions/Palestine/hiba.ghannam.md](submissions/Palestine/hiba.ghannam.md)
 - Philippines — Anonymous. Source: [submissions/Philippines/anonymous.anonymous.md](submissions/Philippines/anonymous.anonymous.md)
 - Spain — Anonymous (provided directly; no file link)

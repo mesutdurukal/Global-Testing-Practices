@@ -2,11 +2,55 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Global Testing Practices - Contributors</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
     <style>
         body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+            color: #333;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        #map {
+            height: 500px;
+            width: 100%;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .contributor {
+            background: #f9f9f9;
+            border-left: 4px solid #3498db;
+            margin: 15px 0;
+            padding: 15px;
+            border-radius: 0 4px 4px 0;
+        }
+        .contributor h3 {
+            margin-top: 0;
+            color: #2c3e50;
+        }
+        .contributor p {
+            margin: 5px 0;
+        }
+        .nationality {
+            font-weight: bold;
+            color: #3498db;
+        }
+        .country-flag {
+            font-size: 1.2em;
+            margin-right: 5px;
         }
         h1, h2 {
             color: #333;
@@ -85,14 +129,20 @@
         { name: "Toyer Mamoojee", nationality: "South African", country: "UAE", lat: 25.1104, lon: 55.2823 },
         { name: "Anupam Krishnamurthy", nationality: "Indian", country: "Germany", lat: 52.5063, lon: 13.412 },
         { name: "Andrew Brown", nationality: "English", country: "England", lat: 52.12378, lon: -1.8383 },
-        { name: "Vipin Jain", nationality: "Indian", country: "India", lat: 18.52752, lon: 73.85541 }
+        { name: "Vipin Jain", nationality: "Indian", country: "India", lat: 18.52752, lon: 73.85541 },
+        { name: "Giuseppe Donati", nationality: "Italian, German", country: "Germany", lat: 51.2136871279678, lon: 6.747317070699037 },
+        { name: "Willem", nationality: "Dutch", country: "Netherlands", lat: 53.32132781398358, lon: 5.997681187728987 }
     ];
 
     // Helper: build file path if not anonymous
     function getFilePath(c) {
         if (!c.name || c.name.toLowerCase() === "anonymous") return null;
         const parts = c.name.trim().split(/\s+/);
-        if (parts.length < 2) return null; // need first+last name
+        // Handle single names by using the name as both first and last
+        if (parts.length < 2) {
+            const name = parts[0].toLowerCase();
+            return `submissions/${c.country}/${name}.md`;
+        }
         const first = parts[0].toLowerCase();
         const last = parts[parts.length - 1].toLowerCase();
         return `submissions/${c.country}/${first}.${last}.md`;
