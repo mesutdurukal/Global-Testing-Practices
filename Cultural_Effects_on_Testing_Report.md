@@ -123,7 +123,7 @@ The analysis is based on first-hand observations from 20 testing professionals r
   - Local Spanish teams: culture closer to Argentina with warmer communication and relationship focus
   - Practices similar to Argentina; work culture a bit more structured; salaries are published in job descriptions
 
-### 2. Eastern Europe (Russia, Hungary)
+### 2. Eastern Europe (Russia, Hungary, Romania)
 **Common Traits:**
 - Strong technical education background
 - Hierarchical structures
@@ -132,6 +132,7 @@ The analysis is based on first-hand observations from 20 testing professionals r
 **Unique Aspects:**
 - **Russia**: Extreme skill polarization - highly educated experts vs. poorly trained newcomers
 - **Hungary**: Mature testing culture with international recognition despite modest self-presentation
+- **Romania**: Technical skills with strong educational background in testing; QA professionals often hold engineering or computer science degrees. Testing is increasingly valued, though it previously suffered from being seen as a fallback role. Testers are flexible in adopting new tools and processes but may struggle with making their work visible to stakeholders.
 
 ### 3. East Asia (Japan)
 **Characteristics:**
@@ -354,6 +355,7 @@ The most successful global testing organizations are those that recognize, respe
 - Netherlands — Willem. Source: [submissions/Netherlands/willem.md](submissions/Netherlands/willem.md)
 - Palestine — Hiba Ghannam. Source: [submissions/Palestine/hiba.ghannam.md](submissions/Palestine/hiba.ghannam.md)
 - Philippines — Anonymous. Source: [submissions/Philippines/anonymous.anonymous.md](submissions/Philippines/anonymous.anonymous.md)
+- Romania — Andreea. Source: [submissions/Romania/andreea.md](submissions/Romania/andreea.md)
 - Spain — Anonymous (provided directly; no file link)
 - Sweden — Maryia Tuleika. Source: [submissions/Sweden/maryia.tuleika.md](submissions/Sweden/maryia.tuleika.md)
 - Thailand — Shumnan Sun. Source: [submissions/Thailand/shumnan.sun.md](submissions/Thailand/shumnan.sun.md)
