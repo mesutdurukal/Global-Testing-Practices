@@ -2,13 +2,13 @@
 
 ## Executive Summary
 
-This report analyzes submissions from 20 countries/regions to understand how cultural factors influence software testing practices, methodologies, and team dynamics. The analysis reveals distinct patterns across different cultural dimensions that significantly impact testing approaches, tool adoption, communication styles, and quality standards.
+This report analyzes submissions from 21 countries/regions to understand how cultural factors influence software testing practices, methodologies, and team dynamics. The analysis reveals distinct patterns across different cultural dimensions that significantly impact testing approaches, tool adoption, communication styles, and quality standards.
 
 ## Methodology
 
-The analysis is based on first-hand observations from 20 testing professionals representing diverse backgrounds:
-- **Countries/Regions Analyzed**: Russia, Germany, Hungary, Israel, Japan, Turkey, Netherlands, Palestine, Philippines, Sweden, Thailand, UAE, USA, South Africa, England, France, Spain, Argentina, Canada, India
-- **Contributors**: QA Engineers, Test Automation Engineers, Quality Leaders, and Directors
+The analysis is based on first-hand observations from 21 testing professionals representing diverse backgrounds:
+- **Countries/Regions Analyzed**: Russia, Germany, Hungary, Israel, Japan, Turkey, Netherlands, Palestine, Philippines, Sweden, Thailand, UAE, USA, South Africa, England, France, Spain, Argentina, Canada, India, Romania
+- **Contributors**: QA Engineers, Test Automation Engineers, Quality Leaders, QA Managers, and Directors
 - **Industries**: IT, Automotive, Banking, E-commerce, Healthcare, Finance, Education
 
 ## Key Cultural Dimensions Affecting Testing
@@ -203,12 +203,16 @@ The analysis is based on first-hand observations from 20 testing professionals r
 
 ### 7. Africa (South Africa)
 **Characteristics:**
-- Strong technical education background
-- Hierarchical structures
-- Growing testing communities
+- Dual testing culture based on company type
+- Strong communication skills
+- Growing technical sophistication in tech companies
 
-**Unique Aspects:**
-- **South Africa**: Strong technical skills but limited resources and infrastructure
+**Country snapshot — South Africa (Raphael Roems):**
+- **Corporate environments** (non-software core business): Risk-averse, slower tool/process adoption, longer release cycles, less automation. Dedicated testers in all squads with emphasis on manual testing skills. Reporting (coverage, bugs found) is highly valued.
+- **Technology companies** (software as core revenue): Quick adoption of latest tools/processes, less risk-averse, "fail fast and fix" mentality. More development team approach with fewer dedicated testers. Testers are technically savvy with heavy automation reliance.
+- **Strengths**: Strong communication on issues and progress feedback
+- **Weaknesses**: Testers sometimes fail to advocate stopping releases when fundamentally flawed due to deadline pressures
+- **Surprising observations**: Strict release cycles in corporates with multiple stakeholder approvals and punitive root cause analysis for production bugs—frustrating when compared to tech companies deploying multiple times daily
 
 ### 8. Latin America (Argentina)
 **Country snapshot — Argentina (Anonymous):**
@@ -362,4 +366,5 @@ The most successful global testing organizations are those that recognize, respe
 - Turkiye — Mesut Gunes. Source: [submissions/Turkiye/mesut.gunes.md](submissions/Turkiye/mesut.gunes.md)
 - Turkiye — Anonymous (provided directly; no file link)
 - UAE — Toyer Mamoojee. Source: [submissions/UAE/toyer.mamoojee.md](submissions/UAE/toyer.mamoojee.md)
+- South Africa — Raphael Roems. Source: [submissions/South Africa/raphael.roems.md](submissions/South Africa/raphael.roems.md)
 - USA — Péter Földházi. Source: [submissions/USA/péter.földházi.md](submissions/USA/péter.földházi.md)
