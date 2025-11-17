@@ -6,8 +6,8 @@ This report analyzes submissions from 21 countries/regions to understand how cul
 
 ## Methodology
 
-The analysis is based on first-hand observations from 21 testing professionals representing diverse backgrounds:
-- **Countries/Regions Analyzed**: Russia, Germany, Hungary, Israel, Japan, Turkey, Netherlands, Palestine, Philippines, Sweden, Thailand, UAE, USA, South Africa, England, France, Spain, Argentina, Canada, India, Romania
+The analysis is based on first-hand observations from 22 testing professionals representing diverse backgrounds:
+- **Countries/Regions Analyzed**: Russia, Germany, Hungary, Israel, Japan, Turkey, Netherlands, Palestine, Philippines, Sweden, Thailand, UAE, USA, South Africa, England, France, Spain, Argentina, Canada, India, Romania, Tunisia
 - **Contributors**: QA Engineers, Test Automation Engineers, Quality Leaders, QA Managers, and Directors
 - **Industries**: IT, Automotive, Banking, E-commerce, Healthcare, Finance, Education
 
@@ -153,7 +153,7 @@ The analysis is based on first-hand observations from 21 testing professionals r
   - Projects shipped as large, non-testable chunks; responsibilities siloed by role
   - More frequent verification in production due to limited testing in pipelines and hard-to-verify services in lower envs
 
-### 4. Middle East & Western Asia (Palestine, UAE, Turkey)
+### 4. Middle East & North Africa (Palestine, UAE, Turkey, Tunisia)
 **Common Traits:**
 - Diverse, multicultural teams
 - Adaptation to international standards
@@ -164,12 +164,22 @@ The analysis is based on first-hand observations from 21 testing professionals r
 - **Palestine**: Resilience under difficult circumstances, limited automation opportunities
 - **UAE**: Rapid modernization and global best practice adoption
 - **Turkey**: Quick technology adoption with cultural flexibility, bridging European and Asian approaches
+- **Tunisia**: Young startup ecosystem with lean teams, manual-heavy testing, and limited QA maturity
 - **Country snapshot — Türkiye (Anonymous):**
   - Manual-heavy overall; automation growing but uneven; QA often joins late in the lifecycle
   - Unit testing/TDD under-valued vs. UI-layer testing, making testing slower and more expensive
   - ISTQB certification highly valued; acceptance testing with business users has a big role
   - Strengths: strong talent pool, adaptability, and good collaboration
   - Weaknesses: over-reliance on manual/UI testing and late QA involvement increase cost and cycle time
+- **Country snapshot — Tunisia (Anonymous):**
+  - **Local IT startups**: Young, lean teams focused on fast delivery; QA function often underdeveloped with testers wearing multiple hats (tester, BA, product tasks)
+  - **Testing approach**: Primarily manual with ad-hoc practices; Kanban-style tracking; limited mentorship and senior QA guidance
+  - **International startups**: More mature QA structure with established processes, multiple testers collaborating, and stronger quality culture
+  - **Certifications**: ISTQB widely recognized and requested in job postings
+  - **Methodologies**: Agile or Kanban used but implementation is loose and adapted to team constraints
+  - **Community**: Less centralized and active compared to other regions; limited collaboration and weaker open-source culture make mentorship and best practice sharing harder
+  - **Strengths**: Highly adaptable testers who handle multiple responsibilities and find practical ways to maintain quality despite limited resources; strong focus on delivering acceptable quality for international clients using pragmatic, risk-based approaches
+  - **Weaknesses**: Lack of true QA leadership or structured processes makes it harder for testers to grow, adopt best practices, or build robust automation strategies
 
 ### 5. Southeast Asia (Philippines, Thailand)
 **Common Traits:**
@@ -245,6 +255,7 @@ The analysis is based on first-hand observations from 21 testing professionals r
 - **Japan**: "Manual testing dominance over test automation"
 - **Palestine**: "Strong reliance on manual testing over automation"
 - **Philippines**: Traditional approaches in large organizations
+- **Tunisia**: Manual testing remains primary approach in startups; automation adoption varies widely depending on team size and delivery pressure
 
 ## Quality vs. Speed Cultural Trade-offs
 
@@ -340,7 +351,7 @@ The most successful global testing organizations are those that recognize, respe
 
 ---
 
-*This report is based on submissions from the Global Testing Practices project, representing real-world observations from testing professionals across 20 countries and regions.*
+*This report is based on submissions from the Global Testing Practices project, representing real-world observations from testing professionals across 22 countries and regions.*
 
 ## Appendix: Contributors and Sources
 - Argentina — Anonymous (provided directly; no file link)
@@ -367,4 +378,5 @@ The most successful global testing organizations are those that recognize, respe
 - Turkiye — Anonymous (provided directly; no file link)
 - UAE — Toyer Mamoojee. Source: [submissions/UAE/toyer.mamoojee.md](submissions/UAE/toyer.mamoojee.md)
 - South Africa — Raphael Roems. Source: [submissions/South Africa/raphael.roems.md](submissions/South Africa/raphael.roems.md)
+- Tunisia — Anonymous (provided directly; no file link)
 - USA — Péter Földházi. Source: [submissions/USA/péter.földházi.md](submissions/USA/péter.földházi.md)
