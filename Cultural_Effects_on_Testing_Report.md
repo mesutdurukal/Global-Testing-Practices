@@ -2,14 +2,14 @@
 
 ## Executive Summary
 
-This report analyzes submissions from 21 countries/regions to understand how cultural factors influence software testing practices, methodologies, and team dynamics. The analysis reveals distinct patterns across different cultural dimensions that significantly impact testing approaches, tool adoption, communication styles, and quality standards.
+This report analyzes submissions from 22 countries/regions to understand how cultural factors influence software testing practices, methodologies, and team dynamics. The analysis reveals distinct patterns across different cultural dimensions that significantly impact testing approaches, tool adoption, communication styles, and quality standards.
 
 ## Methodology
 
-The analysis is based on first-hand observations from 22 testing professionals representing diverse backgrounds:
-- **Countries/Regions Analyzed**: Russia, Germany, Hungary, Israel, Japan, Turkey, Netherlands, Palestine, Philippines, Sweden, Thailand, UAE, USA, South Africa, England, France, Spain, Argentina, Canada, India, Romania, Tunisia
+The analysis is based on first-hand observations from 23 testing professionals representing diverse backgrounds:
+- **Countries/Regions Analyzed**: Russia, Germany, Hungary, Israel, Japan, Turkey, Netherlands, Palestine, Philippines, Sweden, Thailand, UAE, USA, South Africa, England, France, Spain, Argentina, Canada, India, Romania, Tunisia, Australia
 - **Contributors**: QA Engineers, Test Automation Engineers, Quality Leaders, QA Managers, and Directors
-- **Industries**: IT, Automotive, Banking, E-commerce, Healthcare, Finance, Education
+- **Industries**: IT, Automotive, Banking, E-commerce, Healthcare, Finance, Education, Services
 
 ## Key Cultural Dimensions Affecting Testing
 
@@ -239,6 +239,15 @@ The analysis is based on first-hand observations from 22 testing professionals r
 - Distinctive strength in domain expertise (banking, insurance, telecom) and adaptability/upskilling at scale
 - Contrast to West: historically more functional/scale focus than engineering-heavy SDET roles; gap is closing quickly
 
+### 10. Oceania (Australia)
+**Country snapshot — Australia (Praveenkumar Prem):**
+- Testing culture influenced by a career journey across India, UK, and Australia
+- Current landscape (2025): mix of manual, automation, and GenAI-infused testing
+- Blurred role boundaries: "everyone tests" (testers, developers, business analysts)
+- Even with robust testing, strong coverage, automated DevOps pipelines, and sign-offs, failures still appear in production
+- Automation focuses on repetitive tasks, while exploratory testing remains meaningful
+- Talent mix combines home-grown professionals and migrants, similar to the UK
+
 ## Automation Adoption Patterns
 
 ### High Automation Maturity
@@ -351,10 +360,11 @@ The most successful global testing organizations are those that recognize, respe
 
 ---
 
-*This report is based on submissions from the Global Testing Practices project, representing real-world observations from testing professionals across 22 countries and regions.*
+*This report is based on submissions from the Global Testing Practices project, representing real-world observations from testing professionals across 23 countries and regions.*
 
 ## Appendix: Contributors and Sources
 - Argentina — Anonymous (provided directly; no file link)
+- Australia — Praveenkumar Prem. Source: [submissions/Australia/praveenkumar.prem.md](submissions/Australia/praveenkumar.prem.md)
 - Canada — Anonymous (provided directly; no file link)
 - England — Andrew Brown. Source: [submissions/England/andrew.brown.md](submissions/England/andrew.brown.md)
 - France — Vitaly Sharovatov. Source: [submissions/France/vitaly.sharovatov.md](submissions/France/vitaly.sharovatov.md)
